@@ -11,14 +11,22 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
+  //khai bao bien 
+  float chieu_dai, chieu_rong;
+  float chu_vi, dien_tich;
 
-    // Nhập dữ liệu
+  // nhap du lieu
+  printf("Nhap chieu dai: ");
+  scanf("%f", &chieu_dai);
+  printf("Nhap chieu rong: ");
+  scanf("%f", &chieu_rong);
 
+  // xu ly, tinh toan
+  chu_vi = (chieu_dai + chieu_rong) * 2;
+  dien_tich = chieu_dai * chieu_rong;
 
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
+  // hien thi ket qua
+  printf("Chu vi hinh chu nhat = %.2f\n", chu_vi);
+  printf("Dien tich hinh chu nhat = %.2f\n", dien_tich);
 
 }

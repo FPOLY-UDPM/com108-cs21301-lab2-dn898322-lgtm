@@ -13,14 +13,22 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
+    //// Khai báo biến
+    float diem_toan, diem_ly, diem_hoa;
+    float diem_trung_binh;
 
     // Nhập dữ liệu
-
+    printf("Nhap diem mon Toan: ");
+    scanf("%f", &diem_toan);
+    printf("Nhap diem mon Ly: ");
+    scanf("%f", &diem_ly);
+    printf("Nhap diem mon Hoa: ");
+    scanf("%f", &diem_hoa);
 
     // Xử lý, tính toán
+    diem_trung_binh = (diem_toan * 3 + diem_ly * 2 + diem_hoa * 1) / (3 + 2 + 1);
 
     // Hiển thị kết quả
-
+    printf("Diem trung binh = %.2f", diem_trung_binh);
 
 }
