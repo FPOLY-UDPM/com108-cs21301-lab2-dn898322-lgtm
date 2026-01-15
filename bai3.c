@@ -13,14 +13,13 @@
 int main(){
     // khai bao bien 
     const float PI = 3.14;
-    float ban kinh;
-    float chu_vi, dien_tich;
+    float ban_kinh;
     // nhap du lieu
     printf ("Nhap ban kinh hinh tron: ");
-    scanf ("%f", &ban kinh );
+    scanf ("%f", &ban_kinh);
     // xu ly, tinh toan
-    chu_vi = 2 * PI * ban kinh ;
-    dien_tich = PI * ban kinh * ban kinh ;
+    float chu_vi = 2 * PI * ban_kinh;
+    float dien_tich = PI * ban_kinh * ban_kinh;
     // hien thi ket qua
     printf ("Chu vi hinh tron = %.2f\n", chu_vi);
     printf ("Dien tich hinh tron = %.2f\n", dien_tich);
