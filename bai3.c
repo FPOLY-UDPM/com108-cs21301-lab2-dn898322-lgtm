@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Nguyễn Tấn dương]
+ * MSSV:      [ps47990]
+ * Lớp:       [com108-cs21301]
  *****************************************************************************/
 
 // BÀI 3: XÂY DỰNG CHƯƠNG TRÌNH TÍNH CHU VI DIỆN TÍCH HÌNH TRÒN 
@@ -11,14 +11,20 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
-
+    // khai bao bien 
+    const float PI = 3.14;
+    float ban_kinh;
+    // nhap du lieu
+    printf ("Nhap ban kinh hinh tron: ");
+    scanf ("%f", &ban_kinh);
+    // xu ly, tinh toan
+    float chu_vi = 2 * PI * ban_kinh;
+    float dien_tich = PI * ban_kinh * ban_kinh;
+    // hien thi ket qua
+    printf ("Chu vi hinh tron = %.2f\n", chu_vi);
+    printf ("Dien tich hinh tron = %.2f\n", dien_tich);
 }
+
+
+
+
